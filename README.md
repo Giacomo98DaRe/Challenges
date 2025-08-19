@@ -42,12 +42,12 @@ Clone and create the environment:
 git clone https://github.com/<your-username>/challenges.git
 cd challenges
 
-# create the conda env from the recipe (override the name explicitly)
-conda env create -f environment.yml -n challenges-py311
-conda activate challenges-py311
+# create the conda env from the recipe
+conda env create -f environment.yml -n poli_challenges
+conda activate poli_challenges
 
 # register the Jupyter kernel (once)
-python -m ipykernel install --user --name challenges-py311 --display-name "Python (challenges)"
+python -m ipykernel install --user --name poli_challenges --display-name "Python (challenges)"
 ```
 
 Launch JupyterLab and **select the kernel** `Python (challenges)`:
@@ -77,7 +77,7 @@ Open the challenge folder you want (e.g., `Challenge1/notebooks/`) and run the m
   Then `Kernel → Restart Kernel and Clear All Outputs`.
 
 - **Notebook cannot find data**  
-  Ensure you placed files in `ChallengeX/data/dataset/…` or `ChallengeX/data/sample/…`.
+  Ensure you placed files in `ChallengeX/data/dataset/…` or `ChallengeX/data/training/…`.
 
 - **Conda activation not working in cmd/PowerShell**  
   Initialize your shell and reopen it:
@@ -85,7 +85,7 @@ Open the challenge folder you want (e.g., `Challenge1/notebooks/`) and run the m
   conda init cmd.exe
   conda init powershell
   ```
-  Then `conda activate challenges-py311`.
+  Then `conda activate poli_challenges`.
 
 ---
 
