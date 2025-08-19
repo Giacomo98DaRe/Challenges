@@ -1,0 +1,9 @@
+# .PY
+/Challenge1/sample_dataset.py
+
+# CHECKPOINTS
+**/.ipynb_checkpoints/
+
+# DATASET
+/Challenge1/data/FullPlantDataset/training/
+/Challenge1/data/LessTomatoDataset/
