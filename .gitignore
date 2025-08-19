@@ -5,7 +5,7 @@
 **/.ipynb_checkpoints/
 
 # FULL DATASET
-/Challenge1/data/FullPlantDataset/training/
+/Challenge1/data/FullPlantDataset/training_local/
 /Challenge1/data/LessTomatoDataset/
 
 # .ZIP DATASET
