@@ -10,21 +10,21 @@ Image classification project on a plant dataset. The goal is to train a CNN that
 
 
 
-\## TL;DR
+## TL;DR
 
-\- \*\*Task:\*\* multi-class image classification (plants).
+- \*\*Task:\*\* multi-class image classification (plants).
 
-\- \*\*Input:\*\* RGB images organized in subfolders (one folder per class).
+- \*\*Input:\*\* RGB images organized in subfolders (one folder per class).
 
-\- \*\*Output:\*\* class label.
+- \*\*Output:\*\* class label.
 
-\- \*\*Metric:\*\* top-1 accuracy (optionally per-class F1/recall).
+- \*\*Metric:\*\* top-1 accuracy (optionally per-class F1/recall).
 
 
 ---
 
 
-\## Repository Structure
+## Repository Structure
 
 
 📁 data                     # dataset folder
@@ -34,12 +34,13 @@ Image classification project on a plant dataset. The goal is to train a CNN that
 📂 notebooks                # notebook .ipynb
 
 
-\## Data Layout
+## Data Layout
+
 Images will be arranged in folders as follows:
 
 data/FullPlantDataset/
 
-📁 training.zip	            # original zipped dataset
+📁 training.zip	            # TO setup the DOWNLOAD
 
 📁 training_sample		    # default path in code. Use this to run small trials
 
