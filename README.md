@@ -86,10 +86,3 @@ Open the challenge folder you want (e.g., `Challenge1/notebooks/`) and run the m
   conda init powershell
   ```
   Then `conda activate poli_challenges`.
-
----
-
-## License
-
-Add a license (e.g., MIT or Apache‑2.0).  
-If datasets have their own licenses, follow them accordingly.
