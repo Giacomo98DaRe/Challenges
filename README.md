@@ -1,6 +1,7 @@
 # Challenges
 
-A collection of small AI/ML/DL projects (notebooks + supporting Python code).  
+Jupyter notebooks and supporting Python code for the two challenges completed as part of the Neural Networks course during my studies at [Politecnico di Milano](https://www.polimi.it/).  
+
 Each folder `ChallengeX/` contains a runnable notebook and the minimal code to reproduce the results **locally**.
 
 > For project‑specific details (dataset link, model notes, expected results), open the `README.md` inside the challenge you want to run.
